@@ -1,0 +1,104 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Vina Sans', sans-serif;
+  background-color: #090230;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  padding: 0px 10px 0px 10px;
+}
+
+#apple-icon {
+  color: red;
+  font-size: 60px;
+}
+
+.container {
+  text-align: center;
+  background-color: #070e48;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.2), -10px -10px 10px rgba(255, 255, 255, 0.2);
+  width: 500px;
+  height: 700px;
+  position: relative;
+}
+
+
+#timer-display {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #f66151;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 30%;
+  top: 40%;
+  margin-top: 20px;
+  font-size: 40px;
+  color: white;
+}
+
+.top-buttons-div {
+  margin-top: 20px;
+}
+
+.below-buttons-div {
+  position: absolute;
+  bottom: 15%;
+  left: 30%;
+}
+
+.session-button {
+  font-size: 18px;
+  padding: 10px 30px;
+  margin: 5px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #070e48;
+  color: white;
+}
+
+.session-button:hover {
+  background-color: white;
+  color: black;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: whitesmoke;
+}
+
+.down-buttons {
+  margin: 5px 25px;
+}
+
+.down-buttons:hover {
+  background-color: white;
+  color: black;
+}
